@@ -12,7 +12,7 @@ namespace NodeCanvas.Tasks.Actions {
 		public BBParameter<float> turnSpeed = 180f;
 		public BBParameter<float> stoppingDistance = 0.1f;
 
-		private Blackboard agentBlackboard;
+		public Blackboard agentBlackboard;
 		protected override string OnInit() 
 		{
 			return null;
