@@ -2130,10 +2130,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: 
+  _boundGraphSerialization: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[],"connections":[],"canvasGroups":[],"localBlackboard":{"_variables":{}}}'
   _boundGraphObjectReferences: []
   _boundGraphSource:
-    _version: 0
+    _version: 3.29
     _category: 
     _comments: 
     _translation: {x: 0, y: 0}
