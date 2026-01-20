@@ -5,8 +5,8 @@ using UnityEngine;
 
 namespace NodeCanvas.Tasks.Actions {
 
-	public class AdjustCurrentCharge : ActionTask {
-        public BBParameter<float> currentCharge = 0;
+	public class AdjustCurrentPain : ActionTask {
+        public BBParameter<float> currentPain = 0;
         public float adjustmentAmount = 0;
 
         //private Blackboard agentBlackboard;
@@ -23,7 +23,7 @@ namespace NodeCanvas.Tasks.Actions {
 
         protected override void OnUpdate()
         {
-            currentCharge.value += adjustmentAmount * Time.deltaTime;
+            currentPain.value += adjustmentAmount * Time.deltaTime;
 
         }
     }
